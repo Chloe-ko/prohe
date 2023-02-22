@@ -42,6 +42,8 @@ The following options are available for configuration:
   - A higher number will mean more stages to get through to get to maximum vibration
 - `prohe.vibrationStageLength`: Duration (in milliseconds) of each stage of vibration
   - Longer stage length will mean a longer ramp up time to get to maximum vibration
+- `prohe.initfaceServerLocation`: The location of your Initface Central Server
+  - This can be useful if your Initface Central Server ir running on a different device than your development environment
 
 ## Known Issues
 

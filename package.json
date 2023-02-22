@@ -57,6 +57,11 @@
           "type": "integer",
           "default": 10000,
           "description": "Duration (in milliseconds) of each stage of vibration"
+        },
+        "prohe.initfaceServerLocation": {
+          "type": "string",
+          "default": "localhost:12345",
+          "description": "The location of the initface server. Format: <ip>[:<port>]"
         }
       }
     }
